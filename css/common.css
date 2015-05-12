@@ -14,6 +14,7 @@ h1 {
     text-transform: uppercase;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
     color : white;
+    text-align: center;
 }
 
 body{
@@ -32,4 +33,24 @@ body{
     font-family: HelveticaNeueCyr-MediumItalic;
     font-size: 20pt;
     color: #4f505a;
+}
+
+.centered{
+    margin: 0 auto;
+    width: 960px;
+}
+
+#tourInfo{
+    float : left;
+}
+
+.tourText{
+    font-family: HelveticaNeueCyr-Bold;
+    font-size: 24px;
+    color : #fefefe;
+}
+
+.tourNumbers{
+    font-size: 24px;
+    color : #fefefe;
 }
