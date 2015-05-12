@@ -1,6 +1,6 @@
 @font-face {
-    font-family: HelveticaNeueCyr-Bold
-    src: url(fonts/helveticaneuecyr-bold.otf);
+    font-family: HelveticaNeueCyr-Bold;
+    src: url('../fonts/helveticaneuecyr-bold.otf');
 }
 h1 {
     font-family: HelveticaNeueCyr-Bold;
