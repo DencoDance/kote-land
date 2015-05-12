@@ -1,3 +1,7 @@
+@font-face {
+    font-family: HelveticaNeueCyr-Bold
+    src: url(fonts/helveticaneuecyr-bold.otf);
+}
 h1 {
     font-family: HelveticaNeueCyr-Bold;
     font-size: 48pt;
