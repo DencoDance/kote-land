@@ -10,8 +10,22 @@
  <body>
 
   <header>
-     <span class="phone">+12345678</span>
+    <div id="centeredHeader">
+      <img id="logo" src="img/logo.png" />
+
+      <div id="headerText">
+        <span class="left_header_text">Автобусные туры</span>
+        <span class="left_header_text">в Грузию из Украины</span>
+      </div>
+
+      <div id="phoneBox">
+        <span class="phone">+380 97 815 68 38</span>
+        <span class="phone">+380 50 774 99 18</span>
+        <span class="phone">+380 63 796 25 00</span>
+      </div>
+    </div>
   </header>
+
   <div id="block1">
       <div class="centered">
           <h1>
@@ -29,9 +43,9 @@
               <span class="app_about">на тур в Грузию</span><br/>
               <span class="app_about">и получите скидку на проживание</span>
 
-              <form type="post">
-                <input class="app_input" type="text" placeholder="Ваше имя" />
-                <input class="app_input last" type="text" placeholder="Ваш телефон" />
+              <form action="" type="post">
+                <input class="app_input" type="text" placeholder="Ваше имя" name="clientName" />
+                <input class="app_input last" type="text" placeholder="Ваш телефон" name="clientPhone" />
                 <input id="app_btn" type="submit" value="" />
               </form>
 
@@ -40,9 +54,7 @@
                 <span class="personalInfo">Ваши данные в безопасности</span>
                 <span class="personalInfo">И не будут переданы третьим лицам</span>
               </p>
-
           </div>
-
       </div>
   </div>
 

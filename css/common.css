@@ -17,6 +17,7 @@
     font-family: HelveticaNeueCyr-Light;
     src: url('../fonts/helveticaneuecyr-light.otf');
 }
+
 @font-face {
     font-family: HelveticaNeueCyr-Roman;
     src: url('../fonts/helveticaneuecyr-roman.otf');
@@ -68,14 +69,25 @@ body{
 
 .phone{
     font-family: HelveticaNeueCyr-MediumItalic;
-    font-size: 20pt;
+    font-size: 20px;
     color: #4f505a;
+    display: inline;
+    margin-left: 30px;
 }
 
 .centered{
     margin: 0 auto;
     width: 960px;
     margin-top: 125px;
+}
+
+#centeredHeader{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.logoBlock{
+    display: inline;
 }
 
 #tourInfo{
@@ -194,4 +206,24 @@ body{
     float: left;
     margin-left: 60px;
     margin-right: 20px;
+}
+
+.left_header_text{
+    display: block;
+}
+
+#logo{
+    float: left;
+    margin-top: 5px;
+}
+
+#phoneBox{
+    float: right;
+    margin-top: 25px;
+}
+
+#headerText{
+    float: left;
+    margin-top: 19px;
+    margin-left: 10px;
 }
