@@ -149,6 +149,25 @@ body{
 #app_btn{
     margin-top: 18px;
     cursor: pointer;
+    background: url("../img/btn.png");
+    width: 328px;
+    height: 62px;
+    border: none;
+}
+
+#app_btn:focus{
+    outline: none;
+}
+
+#app_btn:active{
+    background: url("../img/btn1.png") no-repeat;
+    margin-top: 28px;
+    margin-left: 8px;
+    height: 52px;
+}
+
+#app_btn:hover{
+
 }
 
 .app_about{
@@ -164,4 +183,15 @@ body{
     font-size: 10px;
     line-height: 12px;
     color: #666666;
+    display: block;
+}
+
+#secureBox{
+    text-align: left !important;
+}
+
+#lock{
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
 }
