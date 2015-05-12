@@ -1,0 +1,7 @@
+h1 {
+    font-family: HelveticaNeueCyr-Bold;
+    font-size: 48pt;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+    color : white;
+}
