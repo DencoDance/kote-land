@@ -8,6 +8,11 @@
     src: url('../fonts/helveticaneuecyr-mediumitaicl.otf');
 }
 
+@font-face {
+    font-family: HelveticaNeueCyr-Medium;
+    src: url('../fonts/helveticaneuecyr-medium.otf');
+}
+
 h1 {
     font-family: HelveticaNeueCyr-Bold;
     font-size: 48px;
