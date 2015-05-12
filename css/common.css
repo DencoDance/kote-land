@@ -17,6 +17,10 @@
     font-family: HelveticaNeueCyr-Light;
     src: url('../fonts/helveticaneuecyr-light.otf');
 }
+@font-face {
+    font-family: HelveticaNeueCyr-Roman;
+    src: url('../fonts/helveticaneuecyr-roman.otf');
+}
 h1 {
     margin: 0px;
     font-family: HelveticaNeueCyr-Bold;
