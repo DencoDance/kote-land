@@ -131,6 +131,15 @@ body{
     padding-left: 20px;
     border-radius: 2px;
     border: 1px solid #e0e0e0;
+    background: no-repeat;
+    background-image: url("../img/name.png") ;
+    background-position-x: 266px;
+    background-position-y: 8px;
+    cursor: pointer;
+}
+
+.app_input.last{
+    background-image: url("../img/phone.png") ;
 }
 
 .app_input:focus{
@@ -139,6 +148,7 @@ body{
 
 #app_btn{
     margin-top: 18px;
+    cursor: pointer;
 }
 
 .app_about{
@@ -146,4 +156,12 @@ body{
     font-size: 16px;
     line-height: 20px;
     color: #656d78;
+}
+
+.personalInfo{
+    text-transform: uppercase;
+    font-family: HelveticaNeueCyr-Light;
+    font-size: 10px;
+    line-height: 12px;
+    color: #666666;
 }
