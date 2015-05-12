@@ -13,6 +13,10 @@
     src: url('../fonts/helveticaneuecyr-medium.otf');
 }
 
+@font-face {
+    font-family: HelveticaNeueCyr-Light;
+    src: url('../fonts/helveticaneuecyr-light.otf');
+}
 h1 {
     font-family: HelveticaNeueCyr-Bold;
     font-size: 48px;
