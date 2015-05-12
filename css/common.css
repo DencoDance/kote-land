@@ -14,12 +14,21 @@
 }
 
 h1 {
+    margin: 0px;
     font-family: HelveticaNeueCyr-Bold;
     font-size: 48px;
     text-transform: uppercase;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
     color : white;
     text-align: center;
+}
+
+h2.application{
+    font-family: HelveticaNeueCyr-Bold;
+    text-transform: uppercase;
+    color: #e20000;
+    font-size: 26px;
+    line-height: 20px;
 }
 
 header{
@@ -39,8 +48,7 @@ body{
     max-width: 1920px;
     height: 800px;
     width: 100%;
-    background: no-repeat;
-    background: url("../img/w1-bg.png");
+    background: url("../img/w1-bg.png") no-repeat;
     display: flex;
     margin-top: 80px;
 }
@@ -62,28 +70,47 @@ body{
 }
 
 .tourText{
+    font-variant: small-caps;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
     font-family: HelveticaNeueCyr-Medium;
     font-size: 24px;
+    line-height: 48px;
     color : #fefefe;
     background: rgba(0,0,0,0.85);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
     display: block;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .tourNumbers{
-    font-family: HelveticaNeueCyr-Bold;
+    font-family: HelveticaNeueCyr-Medium;
+    font-weight: bold;
     font-size: 24px;
     color : #fefefe;
 }
 
 #firstText{
-    width: 288px;
+    width: 263px;
 }
 
 #lastText{
-    width: 332px;
+    width: 293px;
+}
+
+#application{
+    text-align: center;
+    float: right;
+    height: 375px;
+    width: 350px;
+    background: white;
+}
+
+.app_input{
+    display: block;
+}
+
+.app_about{
+    font-size: 16px;
+    line-height: 20px;
+    color: #656d78;
 }
