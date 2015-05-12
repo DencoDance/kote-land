@@ -67,6 +67,14 @@ body{
     margin-top: 80px;
 }
 
+#block2 {
+    max-width: 1920px;
+    height: 650px;
+    width: 100%;
+    background: url("../img/w1-bg.png") no-repeat;
+    display: flex;
+}
+
 .phone{
     font-family: HelveticaNeueCyr-MediumItalic;
     font-size: 20px;
@@ -75,10 +83,15 @@ body{
     margin-left: 30px;
 }
 
-.centered{
+#centeredBlock1{
     margin: 0 auto;
     width: 960px;
     margin-top: 125px;
+}
+
+#centeredBlock2{
+    margin: 0 auto;
+    width: 960px;
 }
 
 #centeredHeader{
