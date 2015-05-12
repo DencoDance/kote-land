@@ -92,6 +92,7 @@ body{
 
 #tourInfo{
     float : left;
+    margin-top: 270px;
 }
 
 .tourText{
@@ -116,10 +117,12 @@ body{
 
 #firstText{
     width: 263px;
+    padding-top: 5px;
 }
 
 #lastText{
     width: 293px;
+    padding-bottom: 5px;
 }
 
 #application{
@@ -128,6 +131,7 @@ body{
     height: 375px;
     width: 350px;
     background: white;
+    margin-top: 70px;
 }
 
 .app_input{
