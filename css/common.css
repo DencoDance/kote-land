@@ -2,10 +2,21 @@
     font-family: HelveticaNeueCyr-Bold;
     src: url('../fonts/helveticaneuecyr-bold.otf');
 }
+body{
+    margin: 0;
+}
 h1 {
     font-family: HelveticaNeueCyr-Bold;
     font-size: 48pt;
     text-transform: uppercase;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
     color : white;
+}
+
+#block1{
+    max-width : 1920px;
+    height: 800px;
+    width: 100%;
+    background: no-repeat;
+    background: url("../img/w1-bg.png");
 }
