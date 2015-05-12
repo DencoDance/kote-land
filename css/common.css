@@ -22,6 +22,13 @@ h1 {
     text-align: center;
 }
 
+header{
+    height: 80px;
+    background: #f9f9f9;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.15) ;
+
+}
+
 body{
     margin: 0;
 }
@@ -50,12 +57,28 @@ body{
 }
 
 .tourText{
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+    font-family: HelveticaNeueCyr-Medium;
+    font-size: 24px;
+    color : #fefefe;
+    background: rgba(0,0,0,0.85);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: block;
+}
+
+.tourNumbers{
     font-family: HelveticaNeueCyr-Bold;
     font-size: 24px;
     color : #fefefe;
 }
 
-.tourNumbers{
-    font-size: 24px;
-    color : #fefefe;
+#firstText{
+    width: 288px;
+}
+
+#lastText{
+    width: 332px;
 }
