@@ -411,7 +411,7 @@ body{
 }
 
 #photo_block{
-    margin-top: 10px;
+    margin-top: 60px;
 }
 
 #we_r_block{
@@ -419,7 +419,7 @@ body{
 }
 
 #answersBlock{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #callBackBox{
@@ -549,6 +549,7 @@ body{
 }
 
 .answer_{
+    font-family: HelveticaNeueCyr-Light;
     background: #f9f9f9;
     border : 1px solid #dbdbdb;
     font-size: 16px;
