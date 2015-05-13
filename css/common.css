@@ -23,6 +23,11 @@
     src: url('../fonts/helveticaneuecyr-roman.otf');
 }
 
+@font-face {
+    font-family: Helvetica-LightItalic;
+    src: url('../fonts/helveticaneuecyr-lightitalic.otf');
+}
+
 h1 {
     margin: 0px;
     font-family: HelveticaNeueCyr-Bold;
@@ -603,4 +608,60 @@ body{
     margin-top: 40px;
     margin-right: 30px;
     cursor: pointer;
+}
+
+.Callback{
+    width: 960px;
+}
+
+.leftImg{
+    float : left;
+}
+
+.rightImg{
+    float : right;
+}
+
+.tourist_info{
+    text-align: left;
+    padding-top: 30px;
+}
+
+.tourist_info.left{
+    margin-left: 280px;
+}
+
+.Callback hr{
+    width: 20%;
+    margin-left: 381px;
+    margin-top: 30px;
+}
+
+.tourist_name{
+    font-family: HelveticaNeueCyr-Bold ;
+    font-size: 26px;
+    line-height: 20px;
+    color: #434a54;
+}
+
+.city{
+    font-family: HelveticaNeueCyr-Light;
+    font-size: 14px;
+    line-height: 20px;
+    color : #aab2db;
+}
+
+.age{
+    font-family: HelveticaNeueCyr-Roman;
+    font-size: 18px;
+    line-height: 20px;
+    color : #656d78;
+}
+
+.about_tour{
+    font-family: Helvetica-LightItalic;
+    font-size: 18px;
+    line-height: 24px;
+    color : #434a54;
+    margin-top: 15px;
 }
