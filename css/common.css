@@ -98,6 +98,7 @@ body{
     height: 890px;
     width: 100%;
     display: flex;
+    background: url("../img/w5-bg.png");
 }
 
 #block6 {
@@ -270,7 +271,8 @@ body{
 
 #app_btn:active{
     background: url("../img/btn-sprite.png") no-repeat;
-    background-position-y: -61px;
+    background-position-y: -63px;
+    background-position-x: -4px;
     margin-top: 28px;
     margin-left: 8px;
     height: 52px;
@@ -360,7 +362,7 @@ body{
     color: #434a54;
 }
 
-#reasons7{
+#question{
     line-height: 20px;
     text-transform: uppercase;
     font-size: 36px;
@@ -376,7 +378,7 @@ body{
     color: #434a54;
 }
 
-#reason_to_ride{
+#answers{
     text-transform: uppercase;
     line-height: 20px;
     font-size: 36px;
@@ -416,7 +418,7 @@ body{
     margin-top: 10px;
 }
 
-#reasons_block{
+#answersBlock{
     margin-top: 50px;
 }
 
@@ -442,7 +444,7 @@ body{
     margin-top: 10px;
 }
 
-#reasons_block hr{
+#answersBlock hr{
     width: 13%;
     color: #434a54;
     margin-top: 10px;
@@ -476,6 +478,12 @@ body{
 
 .second_line{
     margin-top: 25px;
+
+}
+
+.Line_plane{
+    width: 170px;
+    text-align: center;
 }
 
 #photo_slider{
@@ -517,4 +525,41 @@ body{
 
 .slidingImage:first-child{
     opacity:1;
+}
+
+.question_,.answer_,.question_Block{
+    float: left;
+    text-align: left;
+}
+
+.question_Block{
+    height: 80px;
+    background: white;
+    width: 960px;
+    border : 1px solid #dbdbdb;
+}
+
+.question_{
+    font-family: HelveticaNeueCyr-Light;
+    font-size: 22px;
+    line-height: 36px;
+    color: #434a54;
+    padding-top: 25px;
+    padding-left: 66px;
+}
+
+.answer_{
+    background: #f9f9f9;
+    border : 1px solid #dbdbdb;
+    font-size: 16px;
+    line-height: 18px;
+    width: 828px;
+    padding-left: 66px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 66px;
+}
+
+#question_answer{
+    margin-top: 60px;
 }
