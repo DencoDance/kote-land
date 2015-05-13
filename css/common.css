@@ -752,6 +752,10 @@ footer{
 .question_phone{
     margin-left: 30px;
     margin-right: 30px;
+    font-family: HelveticaNeueCyr-Roman;
+}
+
+.bold_phone{
     font-family: HelveticaNeueCyr-Bold;
 }
 
