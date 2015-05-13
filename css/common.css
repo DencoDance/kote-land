@@ -223,7 +223,8 @@ body{
 
 #app_btn:active{
     background: url("../img/btn-sprite.png") no-repeat;
-    background-position-y: -61px;
+    background-position-y: -63px;
+    background-position-x: -4px;
     margin-top: 28px;
     margin-left: 8px;
     height: 52px;
