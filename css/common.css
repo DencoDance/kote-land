@@ -89,6 +89,7 @@ body{
     height: 890px;
     width: 100%;
     display: flex;
+    background: url("../img/w5-bg.png");
 }
 
 #block6 {
@@ -303,7 +304,7 @@ body{
     color: #434a54;
 }
 
-#reasons7{
+#question{
     line-height: 20px;
     text-transform: uppercase;
     font-size: 36px;
@@ -319,7 +320,7 @@ body{
     color: #434a54;
 }
 
-#reason_to_ride{
+#answers{
     text-transform: uppercase;
     line-height: 20px;
     font-size: 36px;
@@ -359,7 +360,7 @@ body{
     margin-top: 10px;
 }
 
-#reasons_block{
+#answersBlock{
     margin-top: 50px;
 }
 
@@ -385,7 +386,7 @@ body{
     margin-top: 10px;
 }
 
-#reasons_block hr{
+#answersBlock hr{
     width: 13%;
     color: #434a54;
     margin-top: 10px;
@@ -460,4 +461,9 @@ body{
 
 .slidingImage:first-child{
     opacity:1;
+}
+
+.question_,.answer_{
+    float: left;
+    text-align: left;
 }
