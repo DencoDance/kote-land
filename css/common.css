@@ -75,6 +75,14 @@ body{
     display: flex;
 }
 
+#block3 {
+    max-width: 1920px;
+    height: 500px;
+    width: 100%;
+    background: url("../img/w3-bg.png") no-repeat;
+    display: flex;
+}
+
 .phone{
     font-family: HelveticaNeueCyr-Medium;
     font-size: 20px;
@@ -266,6 +274,13 @@ body{
     color: #434a54;
 }
 
+#services{
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Bold;
+    color: #ffffff;
+}
 #we_r_best{
     text-transform: uppercase;
     line-height: 20px;
