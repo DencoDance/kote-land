@@ -28,7 +28,7 @@ h1 {
     font-family: HelveticaNeueCyr-Bold;
     font-size: 48px;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 5px rgba(182, 102, 16, 0.65);
     color : white;
     text-align: center;
     line-height: 50px;
@@ -52,6 +52,7 @@ header{
     box-shadow: 0px 1px 2px rgba(0,0,0,0.15) ;
     position: fixed;
     width: 100%;
+    z-index: 1;  /* for slider <li> postition absolute */
 }
 
 body{
@@ -62,7 +63,7 @@ body{
     max-width: 1920px;
     height: 800px;
     width: 100%;
-    background: url("../img/dots.png"),url("../img/w1-bg.png") no-repeat;
+    background: url("../img/w1-bg.png") no-repeat;
     display: flex;
     margin-top: 80px;
 }
@@ -90,6 +91,21 @@ body{
     padding-top: 58px;
     background: url("../img/w3-bg.png") no-repeat;
     display: flex;
+}
+
+#block5 {
+    max-width: 1920px;
+    height: 890px;
+    width: 100%;
+    display: flex;
+}
+
+#block6 {
+    max-width: 1920px;
+    height: 890px;
+    width: 100%;
+    display: flex;
+    background: #f9f9f9;
 }
 
 .phone{
@@ -168,7 +184,7 @@ body{
 
 .tourText{
     font-variant: small-caps;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
     font-family: HelveticaNeueCyr-Medium;
     font-size: 24px;
     line-height: 48px;
@@ -189,11 +205,17 @@ body{
 #firstText{
     width: 263px;
     padding-top: 5px;
+    background: rgba(230,126,34,0.7);
+}
+
+#secondText{
+    background: rgba(243,156,18,0.7);
 }
 
 #lastText{
     width: 293px;
     padding-bottom: 5px;
+    background: rgba(241,196,15,0.7);
 }
 
 #application{
@@ -236,7 +258,7 @@ body{
 #app_btn{
     margin-top: 18px;
     cursor: pointer;
-    background: url("../img/btn.png");
+    background: url("../img/btn-sprite.png") no-repeat;
     width: 328px;
     height: 62px;
     border: none;
@@ -247,14 +269,11 @@ body{
 }
 
 #app_btn:active{
-    background: url("../img/btn1.png") no-repeat;
+    background: url("../img/btn-sprite.png") no-repeat;
+    background-position-y: -61px;
     margin-top: 28px;
     margin-left: 8px;
     height: 52px;
-}
-
-#app_btn:hover{
-
 }
 
 .app_about{
@@ -341,7 +360,39 @@ body{
     color: #434a54;
 }
 
+#reasons7{
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Light;
+    color: #434a54;
+}
+
+#clientCallback{
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Light;
+    color: #434a54;
+}
+
+#reason_to_ride{
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Bold ;
+    color: #e20000;
+}
+
 #we_r_best{
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Bold ;
+    color: #e20000;
+}
+
+#callbacks{
     text-transform: uppercase;
     line-height: 20px;
     font-size: 36px;
@@ -365,6 +416,14 @@ body{
     margin-top: 10px;
 }
 
+#reasons_block{
+    margin-top: 50px;
+}
+
+#callBackBox{
+    margin-top: 50px;
+}
+
 #we_r_block hr{
     width: 13%;
     color: #434a54;
@@ -372,6 +431,18 @@ body{
 }
 
 #photo_block hr{
+    width: 13%;
+    color: #434a54;
+    margin-top: 10px;
+}
+
+#callBackBox hr{
+    width: 13%;
+    color: #434a54;
+    margin-top: 10px;
+}
+
+#reasons_block hr{
     width: 13%;
     color: #434a54;
     margin-top: 10px;
@@ -405,4 +476,45 @@ body{
 
 .second_line{
     margin-top: 25px;
+}
+
+#photo_slider{
+    width: 700px;
+    margin: 0 auto;
+    height: 446px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.4);
+    margin-top: 30px;
+   /* background: url("../img/img-tourist.png") 50% 50% no-repeat; */
+}
+
+#arrow_left{
+  float: left;
+  margin-top: 200px;
+  margin-left: 45px;
+  cursor: pointer;
+}
+
+#arrow_right{
+  float: right;
+  margin-top: -274px;
+  margin-right: 45px;
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+#sliderBox{
+    list-style: none;
+}
+
+.slidingImage{
+    position: absolute;
+    opacity:0;
+    margin-left: -45px;
+    margin-top: -3px;
+}
+
+.slidingImage:first-child{
+    opacity:1;
 }
