@@ -69,9 +69,9 @@ body{
 
 #block2 {
     max-width: 1920px;
-    height: 650px;
+    height: 600px;
     width: 100%;
-    background: url("../img/w1-bg.png") no-repeat;
+    background: #f9f9f9;
     display: flex;
 }
 
@@ -93,6 +93,7 @@ body{
 #centeredBlock2{
     margin: 0 auto;
     width: 960px;
+    text-align: center;
 }
 
 #centeredHeader{
@@ -250,4 +251,35 @@ body{
     line-height: 20px;
     font-size: 18px;
     font-family: HelveticaNeueCyr-Light;
+}
+
+#rocks{
+    width: 960px;
+    margin-top: -88px;
+}
+
+#why{
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Light;
+    color: #434a54;
+}
+
+#we_r_best{
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Bold ;
+    color: #e20000;
+}
+
+#we_r_block{
+    margin-top: 10px;
+}
+
+#we_r_block hr{
+    width: 13%;
+    color: #434a54;
+    margin-top: 10px;
 }
