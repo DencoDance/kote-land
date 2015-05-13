@@ -28,7 +28,7 @@ h1 {
     font-family: HelveticaNeueCyr-Bold;
     font-size: 48px;
     text-transform: uppercase;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 5px rgba(182, 102, 16, 0.65);
     color : white;
     text-align: center;
     line-height: 50px;
@@ -63,7 +63,7 @@ body{
     max-width: 1920px;
     height: 800px;
     width: 100%;
-    background: url("../img/dots.png"),url("../img/w1-bg.png") no-repeat;
+    background: no-repeat;
     display: flex;
     margin-top: 80px;
 }
@@ -137,7 +137,7 @@ body{
 
 .tourText{
     font-variant: small-caps;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 1);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.25);
     font-family: HelveticaNeueCyr-Medium;
     font-size: 24px;
     line-height: 48px;
@@ -158,11 +158,17 @@ body{
 #firstText{
     width: 263px;
     padding-top: 5px;
+    background: #e67e22;
+}
+
+#secondText{
+    background: #f39c12;
 }
 
 #lastText{
     width: 293px;
     padding-bottom: 5px;
+    background: #f1c40f;
 }
 
 #application{
