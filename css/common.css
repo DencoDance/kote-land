@@ -84,6 +84,21 @@ body{
     display: flex;
 }
 
+#block5 {
+    max-width: 1920px;
+    height: 890px;
+    width: 100%;
+    display: flex;
+}
+
+#block6 {
+    max-width: 1920px;
+    height: 890px;
+    width: 100%;
+    display: flex;
+    background: #f9f9f9;
+}
+
 .phone{
     font-family: HelveticaNeueCyr-Medium;
     font-size: 20px;
@@ -284,7 +299,39 @@ body{
     color: #434a54;
 }
 
+#reasons7{
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Light;
+    color: #434a54;
+}
+
+#clientCallback{
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Light;
+    color: #434a54;
+}
+
+#reason_to_ride{
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Bold ;
+    color: #e20000;
+}
+
 #we_r_best{
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Bold ;
+    color: #e20000;
+}
+
+#callbacks{
     text-transform: uppercase;
     line-height: 20px;
     font-size: 36px;
@@ -308,6 +355,14 @@ body{
     margin-top: 10px;
 }
 
+#reasons_block{
+    margin-top: 50px;
+}
+
+#callBackBox{
+    margin-top: 50px;
+}
+
 #we_r_block hr{
     width: 13%;
     color: #434a54;
@@ -315,6 +370,18 @@ body{
 }
 
 #photo_block hr{
+    width: 13%;
+    color: #434a54;
+    margin-top: 10px;
+}
+
+#callBackBox hr{
+    width: 13%;
+    color: #434a54;
+    margin-top: 10px;
+}
+
+#reasons_block hr{
     width: 13%;
     color: #434a54;
     margin-top: 10px;
