@@ -62,7 +62,7 @@ body{
     max-width: 1920px;
     height: 800px;
     width: 100%;
-    background: url("../img/w1-bg.png") no-repeat;
+    background: url("../img/dots.png"),url("../img/w1-bg.png") no-repeat;
     display: flex;
     margin-top: 80px;
 }
@@ -76,11 +76,12 @@ body{
 }
 
 .phone{
-    font-family: HelveticaNeueCyr-MediumItalic;
+    font-family: HelveticaNeueCyr-Medium;
     font-size: 20px;
+    line-height: 20px;
     color: #4f505a;
     display: inline;
-    margin-left: 30px;
+    margin-left: 45px;
 }
 
 #centeredBlock1{
@@ -105,7 +106,7 @@ body{
 
 #tourInfo{
     float : left;
-    margin-top: 270px;
+    margin-top: 285px;
 }
 
 .tourText{
@@ -144,7 +145,7 @@ body{
     height: 375px;
     width: 350px;
     background: white;
-    margin-top: 70px;
+    margin-top: 84px;
 }
 
 .app_input{
@@ -236,11 +237,17 @@ body{
 
 #phoneBox{
     float: right;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 #headerText{
     float: left;
     margin-top: 19px;
     margin-left: 10px;
+}
+
+.left_header_text{
+    line-height: 20px;
+    font-size: 18px;
+    font-family: HelveticaNeueCyr-Light;
 }
