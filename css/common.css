@@ -17,6 +17,7 @@
     font-family: HelveticaNeueCyr-Light;
     src: url('../fonts/helveticaneuecyr-light.otf');
 }
+
 @font-face {
     font-family: HelveticaNeueCyr-Roman;
     src: url('../fonts/helveticaneuecyr-roman.otf');
@@ -61,25 +62,51 @@ body{
     max-width: 1920px;
     height: 800px;
     width: 100%;
-    background: url("../img/w1-bg.png") no-repeat;
+    background: url("../img/dots.png"),url("../img/w1-bg.png") no-repeat;
     display: flex;
     margin-top: 80px;
 }
 
-.phone{
-    font-family: HelveticaNeueCyr-MediumItalic;
-    font-size: 20pt;
-    color: #4f505a;
+#block2 {
+    max-width: 1920px;
+    height: 650px;
+    width: 100%;
+    background: url("../img/w1-bg.png") no-repeat;
+    display: flex;
 }
 
-.centered{
+.phone{
+    font-family: HelveticaNeueCyr-Medium;
+    font-size: 20px;
+    line-height: 20px;
+    color: #4f505a;
+    display: inline;
+    margin-left: 45px;
+}
+
+#centeredBlock1{
     margin: 0 auto;
     width: 960px;
     margin-top: 125px;
 }
 
+#centeredBlock2{
+    margin: 0 auto;
+    width: 960px;
+}
+
+#centeredHeader{
+    margin: 0 auto;
+    width: 960px;
+}
+
+.logoBlock{
+    display: inline;
+}
+
 #tourInfo{
     float : left;
+    margin-top: 285px;
 }
 
 .tourText{
@@ -104,10 +131,12 @@ body{
 
 #firstText{
     width: 263px;
+    padding-top: 5px;
 }
 
 #lastText{
     width: 293px;
+    padding-bottom: 5px;
 }
 
 #application{
@@ -116,6 +145,7 @@ body{
     height: 375px;
     width: 350px;
     background: white;
+    margin-top: 84px;
 }
 
 .app_input{
@@ -194,4 +224,30 @@ body{
     float: left;
     margin-left: 60px;
     margin-right: 20px;
+}
+
+.left_header_text{
+    display: block;
+}
+
+#logo{
+    float: left;
+    margin-top: 5px;
+}
+
+#phoneBox{
+    float: right;
+    margin-top: 30px;
+}
+
+#headerText{
+    float: left;
+    margin-top: 19px;
+    margin-left: 10px;
+}
+
+.left_header_text{
+    line-height: 20px;
+    font-size: 18px;
+    font-family: HelveticaNeueCyr-Light;
 }
