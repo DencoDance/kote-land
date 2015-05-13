@@ -299,6 +299,10 @@ body{
     margin-left: 0px;
 }
 
+.Line_plane.last{
+    margin-left: 117px;
+}
+
 .plane_text{
     font-size: 16px;
     line-height: 18px;
