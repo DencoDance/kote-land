@@ -75,6 +75,14 @@ body{
     display: flex;
 }
 
+#block4 {
+    max-width: 1920px;
+    height: 653px;
+    width: 100%;
+    background: #f9f9f9;
+    display: flex;
+}
+
 #block3 {
     max-width: 1920px;
     height: 500px;
@@ -92,21 +100,22 @@ body{
     margin-left: 45px;
 }
 
-#centeredBlock1{
+.centeredBlock{
     margin: 0 auto;
     width: 960px;
-    margin-top: 125px;
 }
 
-#centeredBlock2{
-    margin: 0 auto;
-    width: 960px;
-    text-align: center;
+#firstBlock_centered{
+    margin-top: 125px;
 }
 
 #centeredHeader{
     margin: 0 auto;
     width: 960px;
+}
+
+.align_center{
+    text-align: center;
 }
 
 .logoBlock{
@@ -281,6 +290,14 @@ body{
     font-family: HelveticaNeueCyr-Bold;
     color: #ffffff;
 }
+#photo_tourists{
+    line-height: 20px;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Light;
+    color: #434a54;
+}
+
 #we_r_best{
     text-transform: uppercase;
     line-height: 20px;
@@ -289,11 +306,29 @@ body{
     color: #e20000;
 }
 
+#photo_{
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 36px;
+    font-family: HelveticaNeueCyr-Bold ;
+    color: #e20000;
+}
+
+#photo_block{
+    margin-top: 10px;
+}
+
 #we_r_block{
     margin-top: 10px;
 }
 
 #we_r_block hr{
+    width: 13%;
+    color: #434a54;
+    margin-top: 10px;
+}
+
+#photo_block hr{
     width: 13%;
     color: #434a54;
     margin-top: 10px;
@@ -312,6 +347,10 @@ body{
 
 .Line_plane.first{
     margin-left: 0px;
+}
+
+.Line_plane.last{
+    margin-left: 117px;
 }
 
 .plane_text{
