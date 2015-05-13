@@ -68,7 +68,20 @@ header{
 body{
     margin: 0;
 }
-
+footer{
+    height: 70px;
+    background: #121212;
+    font-family: HelveticaNeueCyr-Light;
+    font-size: 14px;
+    line-height: 18px;
+    color: #666666;
+    text-align: center;
+}
+.copyright{
+    vertical-align: middle;
+    display: inline-block;
+    width: 250px;
+}
 #block1 {
     max-width: 1920px;
     height: 800px;
