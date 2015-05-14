@@ -328,6 +328,7 @@ footer{
 
 .app_input:focus{
     outline-color: #e20000;
+    -moz-outline-color: #e20000;
 }
 
 .app_btn{
