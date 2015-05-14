@@ -50,8 +50,9 @@ $(function()
 {
     $('.app_btn').click(function()
     {
-        var name =  $(this).parent().find('input[name="clientName"]').val();
-        var phone = $(this).parent().find('input[name="clientPhone"]').val();
+        var _this = $(this);
+        var name  = _this.parent().find('input[name="clientName"]').val();
+        var phone = _this.parent().find('input[name="clientPhone"]').val();
 
         $.ajax({
             type: "POST",
@@ -60,8 +61,9 @@ $(function()
                 'clientName' : name,
                 'clientPhone': phone
             },
-            success: function(){
-                console.log('done');
+            success: function(data){
+                $('.app_input').val('');
+                console.log(data);
             },
             error: function(){
                 console.log('error')
