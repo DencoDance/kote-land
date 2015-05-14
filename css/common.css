@@ -1,36 +1,36 @@
 @font-face {
     font-family: HelveticaNeueCyr-Bold;
-    src: url('../fonts/helveticaneuecyr-bold.otf');
+    src: url('../fonts/helveticaneuecyr-bold.otf?');
 }
 
 @font-face {
     font-family: HelveticaNeueCyr-MediumItalic;
-    src: url('../fonts/helveticaneuecyr-mediumitaicl.otf');
+    src: url('../fonts/helveticaneuecyr-mediumitaicl.otf?');
 }
 
 @font-face {
     font-family: HelveticaNeueCyr-Medium;
-    src: url('../fonts/helveticaneuecyr-medium.otf');
+    src: url('../fonts/helveticaneuecyr-medium.otf?');
 }
 
 @font-face {
     font-family: HelveticaNeueCyr-Light;
-    src: url('../fonts/helveticaneuecyr-light.otf');
+    src: url('../fonts/helveticaneuecyr-light.otf?');
 }
 
 @font-face {
     font-family: HelveticaNeueCyr-Roman;
-    src: url('../fonts/helveticaneuecyr-roman.otf');
+    src: url('../fonts/helveticaneuecyr-roman.otf?');
 }
 
 @font-face {
     font-family: HelveticaNeueCyr-LightItalic;
-    src: url('../fonts/helveticaneuecyr-lightitalic.otf');
+    src: url('../fonts/helveticaneuecyr-lightitalic.otf?');
 }
 
 @font-face {
     font-family: HelveticaNeueCyr-Black;
-    src: url('../fonts/helveticaneuecyr-black.otf');
+    src: url('../fonts/helveticaneuecyr-black.otf?');
 }
 
 img{
@@ -114,6 +114,7 @@ footer{
     width: 100%;
     background: #f9f9f9;
     display: flex;
+    padding-top: 60px;
 }
 
 #block3 {
@@ -127,10 +128,11 @@ footer{
 
 #block5 {
     max-width: 1920px;
-    height: 890px;
+    height: 828px;
     width: 100%;
     display: flex;
     background: url("../img/w5-bg.png");
+    padding-top: 60px;
 }
 
 #block6 {
@@ -232,7 +234,8 @@ footer{
 }
 
 #firstBlock_centered{
-    margin-top: 125px;
+    margin-top: 80px;
+    padding-top: 65px;
 }
 
 #centeredHeader{
@@ -483,7 +486,7 @@ footer{
 }
 
 #photo_block{
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 
 #we_r_block{
@@ -491,7 +494,7 @@ footer{
 }
 
 #answersBlock{
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
 
 #callBackBox{
