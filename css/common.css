@@ -144,6 +144,7 @@ footer{
 .centeredBlock{
     margin: 0 auto;
     min-width: 960px;
+    width: 960px;
 }
 
 .tour_btn {
