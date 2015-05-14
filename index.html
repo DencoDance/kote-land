@@ -4,6 +4,7 @@
     <head lang="en">
         <script src="js/jquery-1.11.3.min.js"></script>
         <script src="js/common.js"></script>
+        <script src="js/jquery.mask.min.js"></script>
         <link rel="stylesheet" type="text/html" href="css/common.css">
         <meta charset="UTF-8">
         <title>Kote-Georgia</title>
@@ -47,7 +48,7 @@
 
               <form id="form" action="" type="post">
                 <input class="app_input" type="text" placeholder="Ваше имя" name="clientName" />
-                <input class="app_input last" type="text" placeholder="Ваш телефон" name="clientPhone" />
+                <input class="app_input last form_phone" type="text" placeholder="Ваш телефон" name="clientPhone" />
                 <input class="app_btn" type="submit" value="" />
               </form>
 
@@ -165,7 +166,9 @@
                     (1 ночь)<br/><br/>
                     <hr/>
                 </div>
-                <a href="#application" > <!--onclick="setTimeout(document.getElementById('name-input').focus(),150);"--> <input type="button" class="tour_btn"/></a>
+                <a href="#application" >
+                    <input type="button" class="tour_btn"/>
+                </a>
             </div>
             <div class="tour_block">
                 <div class="head_tour">
@@ -416,7 +419,7 @@
 
              <form id="" action="" type="post">
                  <input class="app_input" id="name-input" type="text" placeholder="Ваше имя" name="clientName" />
-                 <input class="app_input last" type="text" placeholder="Ваш телефон" name="clientPhone" />
+                 <input class="app_input last form_phone" type="text" placeholder="Ваш телефон" name="clientPhone" />
                  <input class="app_btn" type="submit" value="" />
              </form>
 
@@ -437,4 +440,3 @@
  </footer>
  </body>
 </html>
-
