@@ -25,8 +25,8 @@ function complete_mail() {
             '</body>
              </html>';
     // $to - кому отправляем
-//    $to = 'kote.travel@gmail.com';
-    $to = 'di.nekto@gmail.com';
+    $to = 'kote.travel@gmail.com';
+//    $to = 'di.nekto@gmail.com';
     // $from - от кого
     $headers  = "Content-type: text/html; charset=\"utf-8\" \r\n";
     $headers .= "From: bustogorgia landing page\r\n";
