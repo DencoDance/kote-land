@@ -63,10 +63,22 @@ $(function()
             },
             success: function(data){
                 if (data){
-                    alert(data);
+                    //alert(data);
+                    swal({
+                        title: "Ошибка!",
+                        text: data,
+                        type: "error",
+                        confirmButtonText: "Попробовать еще раз!"
+                    });
                 }
                 else{
-                    alert('Спасибо за Ваши данные');
+
+                    swal({
+                        title: "Успех!",
+                        text: "Ваши данные успешно отправлены. Вскоре мы с Вами свяжемся!",
+                        type: "success",
+                        confirmButtonText: "Вперед, к КОТЭшествиям!"
+                    });
                     $('.app_input').val('');
                 }
             }
