@@ -326,11 +326,11 @@ footer{
     border: none;
 }
 
-#app_btn:focus{
+.app_btn:focus{
     outline: none;
 }
 
-#app_btn:active{
+.app_btn:active{
     background: url("../img/btn-sprite.png") no-repeat;
     background-position-y: -63px;
     background-position-x: -4px;
