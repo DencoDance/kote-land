@@ -45,3 +45,27 @@ $(function(){
 
     $('.form_phone').mask('+38 (000) 000 - 00 - 00');
 });
+
+$(function()
+{
+    $('.app_btn').click(function()
+    {
+        var name =  $(this).parent().find('input[name="clientName"]').val();
+        var phone = $(this).parent().find('input[name="clientPhone"]').val();
+
+        $.ajax({
+            type: "POST",
+            url: 'mail.php',
+            data:{
+                'clientName' : name,
+                'clientPhone': phone
+            },
+            success: function(){
+                console.log('done');
+            },
+            error: function(){
+                console.log('error')
+            }
+        });
+    });
+});
