@@ -17,11 +17,18 @@ $(function()
 });
 
 $(function () {
-    $('a[href*=#]').bind("click", function (e) {
+    $('a[href*=#]').bind("click", function (e)
+    {
         var anchor = $(this);
+        
         $('html, body').stop().animate({
             scrollTop: $(anchor.attr('href')).offset().top - 200
         }, 1000);
+
+        window.setTimeout(function () {
+            document.getElementById('name-input').focus();
+        }, 0);
+
         e.preventDefault();
     });
     return false;
