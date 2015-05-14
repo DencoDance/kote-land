@@ -16,15 +16,15 @@ function complete_mail()
     // создаем наше сообщение
     $mess = '<html>
                 <title>Новая "жертва" лендинга bustogeorgia</title>' .
-        '<body>
+               '<body>
                      <br/>' . 'Имя отправителя:' . $_POST['clientName'] .
-        '<br/>' . 'Контактный телефон:' . $_POST['clientPhone'] .
-        '</body>
+                    '<br/>' . 'Контактный телефон:' . $_POST['clientPhone'] .
+               '</body>
              </html>';
-    // $to - кому отправляем
+//  $to - кому отправляем
     $to = 'kote.travel@gmail.com';
-//    $to = 'di.nekto@gmail.com';
-    // $from - от кого
+//  $to = 'di.nekto@gmail.com';
+//  $from - от кого
     $headers = "Content-type: text/html; charset=\"utf-8\" \r\n";
     $headers .= "From: bustogorgia landing page\r\n";
     mail($to, 'New contacts from landing', $mess
