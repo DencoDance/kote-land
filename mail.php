@@ -39,8 +39,8 @@ function complete_mail() {
 
 function output_err($num)
 {
-    $err[0] = 'ОШИБКА! Не введено имя.';
-    $err[1] = 'ОШИБКА! Неверно введен мобильный.';
+    $err[0] = 'Не введено имя.';
+    $err[1] = 'Неверно введен мобильный.';
     echo $err[$num];
 //    show_form();
 //    header('Location: http://bustogeorgia.in.ua');
