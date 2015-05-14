@@ -62,7 +62,6 @@ header{
     box-shadow: 0px 1px 2px rgba(0,0,0,0.15) ;
     position: fixed;
     width: 100%;
-    z-index: 1;  /* for slider <li> postition absolute */
 }
 
 body{
@@ -416,6 +415,7 @@ footer{
 #tours{
     margin-top: 40px;
 }
+
 #photo_tourists{
     line-height: 20px;
     text-transform: uppercase;
@@ -695,9 +695,11 @@ footer{
     color : #434a54;
     margin-top: 15px;
 }
+
 .first_text{
     line-height: 32px;
 }
+
 .block_text {
     font-family: HelveticaNeueCyr-Light;
     font-size: 14px;
@@ -706,24 +708,29 @@ footer{
     text-align: center;
     padding-top: 20px;
 }
+
 .head_title{
     display:inline-block;
     vertical-align:middle;
 }
+
 .helper {
     display: inline-block;
     vertical-align: middle;
     height: 100%;
     width: 0px;
 }
+
 .footer_H1{
     text-shadow:  0 1px 0 rgba(0,0,0,0.5);
 }
+
 #block7{
     padding-top: 60px;
     height: 627px;
     background: url("../img/dots.png"), url("../img/w7-bg.png") no-repeat;
 }
+
 .footerInfo{
     background: rgba(0,0,0,0.25);
     border: 1px solid #010101;
@@ -737,12 +744,15 @@ footer{
     float : left;
     margin-top: 308px;
 }
+
 .black-font{
     font-family: HelveticaNeueCyr-Black;
 }
+
 .questions{
     margin-top: 26px;
 }
+
 .question_phones{
     margin-top: 22px;
     color: white;
