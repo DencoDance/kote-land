@@ -25,28 +25,31 @@ function complete_mail() {
             '</body>
              </html>';
     // $to - кому отправляем
-    $to = 'kote.travel@gmail.com';
+//    $to = 'kote.travel@gmail.com';
+    $to = 'di.nekto@gmail.com';
     // $from - от кого
     $headers  = "Content-type: text/html; charset=\"utf-8\" \r\n";
     $headers .= "From: bustogorgia landing page\r\n";
     mail($to, 'New contacts from landing', $mess
         , $headers
     );
-    echo 'Спасибо! Ваше письмо отправлено.';
-    header('Location: http://bustogeorgia.in.ua');
+//    echo 'Спасибо! Ваше письмо отправлено.';
+//    header('Location: http://bustogeorgia.in.ua');
 }
 
 function output_err($num)
 {
     $err[0] = 'ОШИБКА! Не введено имя.';
     $err[1] = 'ОШИБКА! Неверно введен мобильный.';
-    echo '<p>'.$err[$num].'</p>';
+    echo $err[$num];
 //    show_form();
-    header('Location: http://bustogeorgia.in.ua');
+//    header('Location: http://bustogeorgia.in.ua');
     exit();
 }
 
-if (!empty($_POST['clientName']) && !empty($_POST['clientPhone']) ){ complete_mail();var_dump('sended');}
-else header('Location: http://bustogeorgia.in.ua');
+//if (!empty($_POST['clientName']) && !empty($_POST['clientPhone']) ){
+    complete_mail();
+//}
+//else header('Location: http://bustogeorgia.in.ua');
 
 ?>
