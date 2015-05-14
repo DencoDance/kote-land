@@ -20,7 +20,7 @@
         <span class="left_header_text">в Грузию из Украины</span>
       </div>
 
-      <div id="phoneBox">
+      <div class="phoneBox">
         <span class="phone">+380 97 815 68 38</span>
         <span class="phone">+380 50 774 99 18</span>
         <span class="phone">+380 63 796 25 00</span>
@@ -31,7 +31,7 @@
   <div id="block1">
       <div id="firstBlock_centered" class="centeredBlock">
           <h1>
-              Прямые автобусные туры в </br> Грузию из Украины
+              Прямые автобусные туры в <br/> Грузию из Украины
           </h1>
 
           <div id="tourInfo">
@@ -40,19 +40,19 @@
               <span id="lastText"  class="tourText">В <span class="tourNumbers">5</span> раз дешевле авиабилета</span>
           </div>
 
-          <div id="application">
-              <h2 class="application">Оставьте заявку</h2>
+          <div class="application">
+              <h2 class="application_h2">Оставьте заявку</h2>
               <span class="app_about">на тур в Грузию</span><br/>
               <span class="app_about">и получите скидку на проживание</span>
 
-              <form action="" type="post">
+              <form id="form" action="" type="post">
                 <input class="app_input" type="text" placeholder="Ваше имя" name="clientName" />
-                <input class="app_input last" type="text" placeholder="Ваш телефон" name="clientPhone" id="form_phone" />
-                <input id="app_btn" type="submit" value="" />
+                <input class="app_input last" type="text" placeholder="Ваш телефон" name="clientPhone" />
+                <input class="app_btn" type="submit" value="" />
               </form>
 
-              <p id="secureBox">
-                <img id="lock" src="img/secured.png" />
+              <p class="secureBox">
+                <img class="lock" src="img/secured.png" />
                 <span class="personalInfo">Ваши данные в безопасности</span>
                 <span class="personalInfo">И не будут переданы третьим лицам</span>
               </p>
@@ -123,59 +123,97 @@
             <hr/>
         </div>
 
-        <!--<div id="tours">-->
-            <!--<div class="tour_block">-->
-                <!--<div class="head_tour">-->
-                    <!--<span>Размещение 2*</span>-->
-                <!--</div>-->
+        <div id="tours">
+            <div class="tour_block">
+                <div class="head_tour">
+                    <div class="head_title">Размещение 2*
+                    </div>
+                    <div class="helper"></div>
+                </div>
 
-                <!--<div class="price_head">-->
-                    <!--<span>265</span><span class="usd"> usd</span>-->
-                <!--</div>-->
+                <div class="price_head">
+                    265<span class="usd"> usd</span>
+                </div>
 
-                <!--<div>-->
-                    <!--<span class="block_text">— Тбилиси: bavly hostel (1 ночь)</span></br>-->
-                    <!--<span class="block_text">— Батуми: гостиница G-bakuri 2* (4 ночи)</span></br>-->
-                    <!--<span class="block_text">— Гудаури: 3-4 местные номера (1 ночь)</span></br>-->
-                <!--</div>-->
+                <div class="block_text">
+                    — Тбилиси: bavly hostel (1 ночь)<br/><br/>
+                    — Батуми: гостиница G-bakuri 2*<br/>
+                    (4 ночи)<br/><br/>
+                    — Гудаури: 3-4 местные номера<br/>
+                    (1 ночь)<br/><br/>
+                    <hr/>
+                </div>
+                    <a href="#application"><input type="button" class="tour_btn"/></a>
+            </div>
+            <div class="tour_block">
+                <div class="head_tour">
+                    <div class="head_title">Размещение 2*<br/>
+                        11 ночей Батуми
+                    </div>
+                    <div class="helper"></div>
+                </div>
 
-                <!--<form action="" type="post">-->
-                    <!--<input class="tour_btn" type="submit" value=""/>-->
-                <!--</form>-->
-            <!--</div>-->
+                <div class="price_head">
+                    455<span class="usd"> usd</span>
+                </div>
 
-            <!--<div class="tour_block">-->
-                <!--<div class="head_tour ">-->
-                    <!--<span>Размещение 2* </span></br>-->
-                    <!--<span>11 ночей Батуми</span>-->
-                <!--</div>-->
+                <div class="block_text">
+                    — Тбилиси: bavly hostel (1 ночь)<br/><br/>
+                    — Батуми: гостиница G-bakuri 2*<br/>
+                    (11 ночей)<br/><br/>
+                    — Гудаури: 3-4 местные номера<br/>
+                    (1 ночь)<br/><br/>
+                    <hr/>
+                </div>
+                <a href="#application"><input type="button" class="tour_btn"/></a>
+            </div>
+            <div class="tour_block">
+                <div class="head_tour">
+                    <div class="head_title">Размещение 3*<br/>
+                        11 ночей Батуми
+                    </div>
+                    <div class="helper"></div>
+                </div>
 
-                <!--<form action="" type="post">-->
-                    <!--<input class="tour_btn" type="submit" value=""/>-->
-                <!--</form>-->
-            <!--</div>-->
+                <div class="price_head">
+                    315<span class="usd"> usd</span>
+                </div>
 
-            <!--<div class="tour_block">-->
-                <!--<div class="head_tour">-->
-                    <!--<span>Размещение 3*</span>-->
-                <!--</div>-->
+                <div class="block_text">
+                    — Тбилиси:  гостиница<br/>
+                    Александрия (1 ночь)<br/><br/>
+                    — Батуми:  гостиница Дельфин<br/>
+                    3* (4 ночи)<br/><br/>
+                    — Гудаури: 2х местные номера<br/>
+                    (1 ночь)<br/>
+                    <hr/>
+                </div>
+                <a href="#application"><input type="button" class="tour_btn"/></a>
+            </div>
+            <div class="tour_block">
+                <div class="head_tour">
+                    <div class="head_title">Размещение 3*<br/>
+                        11 ночей Батуми
+                    </div>
+                    <div class="helper"></div>
+                </div>
 
-                <!--<a action="" type="post">-->
-                    <!--<input class="tour_btn" type="submit" value=""/>-->
-                <!--</a>-->
-            <!--</div>-->
+                <div class="price_head">
+                    555<span class="usd"> usd</span>
+                </div>
 
-            <!--<div class="tour_block">-->
-                <!--<div class="head_tour">-->
-                    <!--<span>Размещение 3*</span></br>-->
-                    <!--<span>11 ночей Батуми</span>-->
-                <!--</div>-->
-
-                <!--<form action="" type="post">-->
-                    <!--<input class="tour_btn" type="submit" value=""/>-->
-                <!--</form>-->
-            <!--</div>-->
-        <!--</div>-->
+                <div class="block_text">
+                    — Тбилиси:  гостиница<br/>
+                    Александрия (1 ночь)<br/><br/>
+                    — Батуми:  гостиница Дельфин<br/>
+                    3* (11 ночей)<br/><br/>
+                    — Гудаури: 2х местные номера<br/>
+                    (1 ночь)<br/>
+                    <hr/>
+                </div>
+                <a href="#application"><input type="button" class="tour_btn"/></a>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -351,7 +389,52 @@
 
       </div>
   </div>
+ <div id="block7">
+     <div class="centeredBlock">
+         <h1 class="footer_H1">
+             Прямые автобусные туры в <br/> Грузию из Украины
+         </h1>
+         <div class="footerInfo">
+             <div class="questions">Если у Вас остались вопросы — <span class="black-font">обратитесь</span> к нашему<br/>
+                 консультанту
+             </div>
+             <div class="question_phones">
+                 <span class="question_phone">+ 380 <span class="bold_phone">97 815 68 38</span></span>
+                 <span class="question_phone">+ 380 <span class="bold_phone">50 774 99 18</span></span>
+                 <span class="question_phone">+ 380 <span class="bold_phone">63 796 25 00</span></span>
+             </div>
+             <div class="red_strip">
+                 ИЛИ ОСТАВЬТЕ ЗАЯВКУ И МЫ ВАМ ПЕРЕЗВОНИМ
+                 <div class="helper"></div>
+             </div>
+         </div>
 
+         <div class="application" id="application">
+             <h2 class="application_h2">Оставьте заявку</h2>
+             <span class="app_about">на тур в Грузию</span><br/>
+             <span class="app_about">и получите скидку на проживание</span>
+
+             <form id="" action="" type="post">
+                 <input class="app_input" type="text" placeholder="Ваше имя" name="clientName" />
+                 <input class="app_input last" type="text" placeholder="Ваш телефон" name="clientPhone" />
+                 <input class="app_btn" type="submit" value="" />
+             </form>
+
+             <p class="secureBox">
+                 <img class="lock" src="img/secured.png" />
+                 <span class="personalInfo">Ваши данные в безопасности</span>
+                 <span class="personalInfo">И не будут переданы третьим лицам</span>
+             </p>
+         </div>
+     </div>
+ </div>
+ <footer>
+     <div class="copyright">
+         © 2015 all rights reserved<br/>
+         bustogeorgia.in.ua
+     </div>
+     <div class="helper"></div>
+ </footer>
  </body>
 </html>
 
