@@ -14,4 +14,5 @@ $(function()
         $(this).find('.arrow').prop('src','img/arrow-bottom.png');
      }
   });
+
 });
