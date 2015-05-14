@@ -16,13 +16,32 @@ $(function()
   });
 });
 
-$(function () {
-    $('a[href*=#]').bind("click", function (e) {
+$(function ()
+{
+    $('a[href*=#]').bind("click", function (e)
+    {
         var anchor = $(this);
+
         $('html, body').stop().animate({
             scrollTop: $(anchor.attr('href')).offset().top - 200
         }, 1000);
+
+        window.setTimeout(function () {
+            document.getElementById('name-input').focus();
+        }, 0);
+
         e.preventDefault();
     });
     return false;
+});
+
+$(function(){
+    $('.form_phone').focus(function()
+    {
+        if(!$(this).val()){
+            $(this).val('+38 (0');
+        }
+    });
+
+    $('.form_phone').mask('+38 (000) 000 - 00 - 00');
 });
