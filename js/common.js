@@ -62,11 +62,13 @@ $(function()
                 'clientPhone': phone
             },
             success: function(data){
-                $('.app_input').val('');
-                console.log(data);
-            },
-            error: function(){
-                console.log('error')
+                if (data){
+                    alert(data);
+                }
+                else{
+                    alert('Спасибо за Ваши данные');
+                    $('.app_input').val('');
+                }
             }
         });
     });
