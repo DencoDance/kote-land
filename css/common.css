@@ -793,3 +793,7 @@ footer{
     width: 381px;
     background-color: #e20000;
 }
+
+#fix_helper{
+    height: 106%;
+}
