@@ -35,7 +35,8 @@ $(function ()
     return false;
 });
 
-$(function(){
+$(function()
+{
     $('.form_phone').focus(function()
     {
         if(!$(this).val()){
@@ -61,8 +62,10 @@ $(function()
                 'clientName' : name,
                 'clientPhone': phone
             },
-            success: function(data){
-                if (data){
+            success: function(data)
+            {
+                if (data)
+                {
                     swal({
                         title: "Ошибка!",
                         text: data,
@@ -70,14 +73,15 @@ $(function()
                         confirmButtonText: "Попробовать еще раз!"
                     });
                 }
-                else{
-
+                else
+                {
                     swal({
                         title: "Успех!",
                         text: "Ваши данные успешно отправлены. Вскоре мы с Вами свяжемся!",
                         type: "success",
                         confirmButtonText: "Вперед, к КОТЭшествиям!"
                     });
+
                     $('.app_input').val('');
                 }
             }
