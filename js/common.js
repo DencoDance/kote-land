@@ -63,7 +63,6 @@ $(function()
             },
             success: function(data){
                 if (data){
-                    //alert(data);
                     swal({
                         title: "Ошибка!",
                         text: data,
