@@ -7,7 +7,7 @@ jQuery(document).ready(function ($) {
     //});
     setInterval(function () {
         moveRight();
-    }, 4000);
+    }, 8000);
     var slideCount = $('#slider ul li').length;
     var slideWidth = $('#slider ul li').width();
     var slideHeight = $('#slider ul li').height();
