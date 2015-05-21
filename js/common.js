@@ -81,7 +81,10 @@ $(function()
                         type: "success",
                         confirmButtonText: "Вперед, к КОТЭшествиям!"
                     });
+                (window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=AkUnpO2rnQU8OodWOQK*okqJ38y3jcwT**JuZudGuoDbOzCJJVLaRJVqhHsRmIrFKZzEna395cENFMnw5YCkYeLpny9YvIOl4TwW3iJRKqwz5i*jtfQB/4Mis63vfr*rKsyzxILTiH2qHpcJzlrDZ6knxqB3gsMD9Yxf76GqBus-';
+                yaCounter30238469.reachGoal('ORDER');
 
+                    ga('send','event','cart','zakaz');
                     $('.app_input').val('');
                 }
             }

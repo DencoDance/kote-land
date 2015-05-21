@@ -285,7 +285,7 @@ footer{
 }
 
 #firstText{
-    width: 263px;
+    width: 352px;
     padding-top: 5px;
     background: rgba(230,126,34,0.7);
 }
@@ -295,7 +295,7 @@ footer{
 }
 
 #lastText{
-    width: 293px;
+    width: 304px;
     padding-bottom: 5px;
     background: rgba(241,196,15,0.7);
 }
@@ -303,10 +303,10 @@ footer{
 .application{
     text-align: center;
     float: right;
-    height: 375px;
+    height: 446px;
     width: 350px;
     background: white;
-    margin-top: 84px;
+    margin-top: 8px;
 }
 
 .app_input{
