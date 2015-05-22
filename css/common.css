@@ -334,6 +334,13 @@ footer{
     background-image: url("../img/phone.png") ;
 }
 
+.app_input.form_mail{
+    background-image: url("../img/mail.png");
+    /*background-position-x: 266px;*/
+    /*background-position-x: 281px;*/
+    /*background-position-y: 19px;*/
+}
+
 .app_input:focus{
     outline-color: #e20000;
     -moz-outline-color: #e20000;

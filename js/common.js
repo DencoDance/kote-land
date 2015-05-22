@@ -77,8 +77,10 @@ $(function()
                 {
                     swal({
                         title: "Успех!",
-                        text: "Ваши данные успешно отправлены. Вскоре мы с Вами свяжемся!",
+                        text: "Ваши данные успешно отправлены. Вскоре мы с Вами свяжемся!<br/>" +
+                                'Скачайте наши <a href="../programma_letnego_otduha_ot_kote.pdf" target="_blank" style="color:red">программы</a> туров!',
                         type: "success",
+                        html: true,
                         confirmButtonText: "Вперед, к КОТЭшествиям!"
                     });
                 (window.Image ? (new Image()) : document.createElement('img')).src = location.protocol + '//vk.com/rtrg?r=AkUnpO2rnQU8OodWOQK*okqJ38y3jcwT**JuZudGuoDbOzCJJVLaRJVqhHsRmIrFKZzEna395cENFMnw5YCkYeLpny9YvIOl4TwW3iJRKqwz5i*jtfQB/4Mis63vfr*rKsyzxILTiH2qHpcJzlrDZ6knxqB3gsMD9Yxf76GqBus-';

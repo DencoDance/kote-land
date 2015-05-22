@@ -19,6 +19,7 @@ function complete_mail()
                '<body>
                      <br/>' . 'Имя отправителя:' . $_POST['clientName'] .
                     '<br/>' . 'Контактный телефон:' . $_POST['clientPhone'] .
+                    '<br/>' . 'Email:' . $_POST['clientMail'] .
                '</body>
              </html>';
 //  $to - кому отправляем
@@ -26,7 +27,7 @@ function complete_mail()
 //  $to = 'di.nekto@gmail.com';
 //  $from - от кого
     $headers = "Content-type: text/html; charset=\"utf-8\" \r\n";
-    $headers .= "From: bustogorgia landing page\r\n";
+    $headers .= "From: bustogeorgia landing page\r\n";
     mail($to, 'New contacts from landing', $mess
         , $headers
     );
