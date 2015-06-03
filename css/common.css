@@ -816,3 +816,8 @@ span.red{
     color: #e20000;
     font-family: HelveticaNeueCyr-Light;
 }
+span.white{
+    font-size: 16px;
+    color: #fff;
+    font-family: HelveticaNeueCyr-Light;
+}

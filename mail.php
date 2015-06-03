@@ -13,13 +13,24 @@ function complete_mail()
     // если не заполнено поле "Сообщение" - показываем ошибку 1
     if (empty($_POST['clientPhone']))
         output_err(1);
+    $reg = preg_quote("+38 ([0-9]{3}) [0-9]{3} - [0-9]{2} - [0-9]{2}");
+    if (!preg_match("/\+38 \([0-9]{3}\) [0-9]{3} \- [0-9]{2} \- [0-9]{2}/", $_POST['clientPhone'])){
+//        var_dump('here');
+        output_err(1);
+    }
+    if(!empty($_POST['clientEmail'])){
+        if(!preg_match("/@/", $_POST['clientEmail'])){
+            output_err(2);
+        }
+    }
+    $mail=$_POST['clientEmail'];
+//    echo $mail;
     // создаем наше сообщение
     $mess = '<html>
-                <title>Новая "жертва" лендинга bustogeorgia</title>' .
-               '<body>
-                     <br/>' . 'Имя отправителя:' . $_POST['clientName'] .
+               <body>'
+                    . 'Имя отправителя:' . $_POST['clientName'] .
                     '<br/>' . 'Контактный телефон:' . $_POST['clientPhone'] .
-                    '<br/>' . 'Email:' . $_POST['clientMail'] .
+                    '<br/>' . 'Email:' . $mail .
                '</body>
              </html>';
 //  $to - кому отправляем
@@ -31,12 +42,14 @@ function complete_mail()
     mail($to, 'New contacts from landing', $mess
         , $headers
     );
+//    echo $mess;
 }
 
 function output_err($num)
 {
     $err[0] = 'Не введено имя.';
     $err[1] = 'Неверно введен мобильный.';
+    $err[2] = 'Неверно введен почтовый адрес';
     echo $err[$num];
     exit();
 }

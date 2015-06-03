@@ -54,13 +54,15 @@ $(function()
         var _this = $(this);
         var name  = _this.parent().find('input[name="clientName"]').val();
         var phone = _this.parent().find('input[name="clientPhone"]').val();
+        var email = _this.parent().find('input[name="clientEmail"]').val();
 
         $.ajax({
             type: "POST",
             url: 'mail.php',
             data:{
                 'clientName' : name,
-                'clientPhone': phone
+                'clientPhone': phone,
+                'clientEmail': email
             },
             success: function(data)
             {
